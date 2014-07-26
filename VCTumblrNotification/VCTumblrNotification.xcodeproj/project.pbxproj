@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		329FAB3819840DC10092767C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 329FAB3719840DC10092767C /* Foundation.framework */; };
+		329FAB3A19840DC10092767C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 329FAB3919840DC10092767C /* CoreGraphics.framework */; };
+		329FAB3C19840DC10092767C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 329FAB3B19840DC10092767C /* UIKit.framework */; };
+		329FAB4219840DC10092767C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 329FAB4019840DC10092767C /* InfoPlist.strings */; };
+		329FAB4419840DC10092767C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 329FAB4319840DC10092767C /* main.m */; };
+		329FAB4819840DC10092767C /* VCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 329FAB4719840DC10092767C /* VCAppDelegate.m */; };
+		329FAB4A19840DC10092767C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329FAB4919840DC10092767C /* Images.xcassets */; };
+		329FAB5119840DC10092767C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 329FAB5019840DC10092767C /* XCTest.framework */; };
+		329FAB5219840DC10092767C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 329FAB3719840DC10092767C /* Foundation.framework */; };
+		329FAB5319840DC20092767C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 329FAB3B19840DC10092767C /* UIKit.framework */; };
+		329FAB5B19840DC20092767C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 329FAB5919840DC20092767C /* InfoPlist.strings */; };
+		329FAB5D19840DC20092767C /* VCTumblrNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 329FAB5C19840DC20092767C /* VCTumblrNotificationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		329FAB5419840DC20092767C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 329FAB2C19840DC10092767C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 329FAB3319840DC10092767C;
+			remoteInfo = VCTumblrNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		329FAB3419840DC10092767C /* VCTumblrNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCTumblrNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		329FAB3719840DC10092767C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		329FAB3919840DC10092767C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		329FAB3B19840DC10092767C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		329FAB3F19840DC10092767C /* VCTumblrNotification-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VCTumblrNotification-Info.plist"; sourceTree = "<group>"; };
+		329FAB4119840DC10092767C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		329FAB4319840DC10092767C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		329FAB4519840DC10092767C /* VCTumblrNotification-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VCTumblrNotification-Prefix.pch"; sourceTree = "<group>"; };
+		329FAB4619840DC10092767C /* VCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCAppDelegate.h; sourceTree = "<group>"; };
+		329FAB4719840DC10092767C /* VCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCAppDelegate.m; sourceTree = "<group>"; };
+		329FAB4919840DC10092767C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		329FAB4F19840DC10092767C /* VCTumblrNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VCTumblrNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		329FAB5019840DC10092767C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		329FAB5819840DC20092767C /* VCTumblrNotificationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VCTumblrNotificationTests-Info.plist"; sourceTree = "<group>"; };
+		329FAB5A19840DC20092767C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		329FAB5C19840DC20092767C /* VCTumblrNotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCTumblrNotificationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		329FAB3119840DC10092767C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329FAB3A19840DC10092767C /* CoreGraphics.framework in Frameworks */,
+				329FAB3C19840DC10092767C /* UIKit.framework in Frameworks */,
+				329FAB3819840DC10092767C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329FAB4C19840DC10092767C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329FAB5119840DC10092767C /* XCTest.framework in Frameworks */,
+				329FAB5319840DC20092767C /* UIKit.framework in Frameworks */,
+				329FAB5219840DC10092767C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		329FAB2B19840DC10092767C = {
+			isa = PBXGroup;
+			children = (
+				329FAB3D19840DC10092767C /* VCTumblrNotification */,
+				329FAB5619840DC20092767C /* VCTumblrNotificationTests */,
+				329FAB3619840DC10092767C /* Frameworks */,
+				329FAB3519840DC10092767C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		329FAB3519840DC10092767C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				329FAB3419840DC10092767C /* VCTumblrNotification.app */,
+				329FAB4F19840DC10092767C /* VCTumblrNotificationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		329FAB3619840DC10092767C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				329FAB3719840DC10092767C /* Foundation.framework */,
+				329FAB3919840DC10092767C /* CoreGraphics.framework */,
+				329FAB3B19840DC10092767C /* UIKit.framework */,
+				329FAB5019840DC10092767C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		329FAB3D19840DC10092767C /* VCTumblrNotification */ = {
+			isa = PBXGroup;
+			children = (
+				329FAB4619840DC10092767C /* VCAppDelegate.h */,
+				329FAB4719840DC10092767C /* VCAppDelegate.m */,
+				329FAB4919840DC10092767C /* Images.xcassets */,
+				329FAB3E19840DC10092767C /* Supporting Files */,
+			);
+			path = VCTumblrNotification;
+			sourceTree = "<group>";
+		};
+		329FAB3E19840DC10092767C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				329FAB3F19840DC10092767C /* VCTumblrNotification-Info.plist */,
+				329FAB4019840DC10092767C /* InfoPlist.strings */,
+				329FAB4319840DC10092767C /* main.m */,
+				329FAB4519840DC10092767C /* VCTumblrNotification-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		329FAB5619840DC20092767C /* VCTumblrNotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				329FAB5C19840DC20092767C /* VCTumblrNotificationTests.m */,
+				329FAB5719840DC20092767C /* Supporting Files */,
+			);
+			path = VCTumblrNotificationTests;
+			sourceTree = "<group>";
+		};
+		329FAB5719840DC20092767C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				329FAB5819840DC20092767C /* VCTumblrNotificationTests-Info.plist */,
+				329FAB5919840DC20092767C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		329FAB3319840DC10092767C /* VCTumblrNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329FAB6019840DC20092767C /* Build configuration list for PBXNativeTarget "VCTumblrNotification" */;
+			buildPhases = (
+				329FAB3019840DC10092767C /* Sources */,
+				329FAB3119840DC10092767C /* Frameworks */,
+				329FAB3219840DC10092767C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VCTumblrNotification;
+			productName = VCTumblrNotification;
+			productReference = 329FAB3419840DC10092767C /* VCTumblrNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		329FAB4E19840DC10092767C /* VCTumblrNotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329FAB6319840DC20092767C /* Build configuration list for PBXNativeTarget "VCTumblrNotificationTests" */;
+			buildPhases = (
+				329FAB4B19840DC10092767C /* Sources */,
+				329FAB4C19840DC10092767C /* Frameworks */,
+				329FAB4D19840DC10092767C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				329FAB5519840DC20092767C /* PBXTargetDependency */,
+			);
+			name = VCTumblrNotificationTests;
+			productName = VCTumblrNotificationTests;
+			productReference = 329FAB4F19840DC10092767C /* VCTumblrNotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		329FAB2C19840DC10092767C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Vincent Chow";
+				TargetAttributes = {
+					329FAB4E19840DC10092767C = {
+						TestTargetID = 329FAB3319840DC10092767C;
+					};
+				};
+			};
+			buildConfigurationList = 329FAB2F19840DC10092767C /* Build configuration list for PBXProject "VCTumblrNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 329FAB2B19840DC10092767C;
+			productRefGroup = 329FAB3519840DC10092767C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				329FAB3319840DC10092767C /* VCTumblrNotification */,
+				329FAB4E19840DC10092767C /* VCTumblrNotificationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		329FAB3219840DC10092767C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329FAB4219840DC10092767C /* InfoPlist.strings in Resources */,
+				329FAB4A19840DC10092767C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329FAB4D19840DC10092767C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329FAB5B19840DC20092767C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		329FAB3019840DC10092767C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329FAB4419840DC10092767C /* main.m in Sources */,
+				329FAB4819840DC10092767C /* VCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		329FAB4B19840DC10092767C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329FAB5D19840DC20092767C /* VCTumblrNotificationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		329FAB5519840DC20092767C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 329FAB3319840DC10092767C /* VCTumblrNotification */;
+			targetProxy = 329FAB5419840DC20092767C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		329FAB4019840DC10092767C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				329FAB4119840DC10092767C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		329FAB5919840DC20092767C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				329FAB5A19840DC20092767C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		329FAB5E19840DC20092767C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		329FAB5F19840DC20092767C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		329FAB6119840DC20092767C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VCTumblrNotification/VCTumblrNotification-Prefix.pch";
+				INFOPLIST_FILE = "VCTumblrNotification/VCTumblrNotification-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		329FAB6219840DC20092767C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VCTumblrNotification/VCTumblrNotification-Prefix.pch";
+				INFOPLIST_FILE = "VCTumblrNotification/VCTumblrNotification-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		329FAB6419840DC20092767C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VCTumblrNotification.app/VCTumblrNotification";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VCTumblrNotification/VCTumblrNotification-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VCTumblrNotificationTests/VCTumblrNotificationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		329FAB6519840DC20092767C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VCTumblrNotification.app/VCTumblrNotification";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VCTumblrNotification/VCTumblrNotification-Prefix.pch";
+				INFOPLIST_FILE = "VCTumblrNotificationTests/VCTumblrNotificationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		329FAB2F19840DC10092767C /* Build configuration list for PBXProject "VCTumblrNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329FAB5E19840DC20092767C /* Debug */,
+				329FAB5F19840DC20092767C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		329FAB6019840DC20092767C /* Build configuration list for PBXNativeTarget "VCTumblrNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329FAB6119840DC20092767C /* Debug */,
+				329FAB6219840DC20092767C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		329FAB6319840DC20092767C /* Build configuration list for PBXNativeTarget "VCTumblrNotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329FAB6419840DC20092767C /* Debug */,
+				329FAB6519840DC20092767C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 329FAB2C19840DC10092767C /* Project object */;
+}
